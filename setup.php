@@ -9,7 +9,7 @@
 	}
 
 	//Create Database
-	if (!$mysqli->query("CREATE DATABASE " . $options['mysql_database'])) {
+	if (!$mysqli->query("CREATE DATABASE " . $options['mysql_database'] . " DEFAULT CHARACTER SET utf8 DEFAULT COLLATE utf8_general_ci")) {
 		echo "Error creating database: " . $mysqli->error . "\n";
 	} else {
 		echo "Database created\n";
