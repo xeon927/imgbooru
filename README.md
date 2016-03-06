@@ -1,8 +1,6 @@
 imgbooru
 ========
 
-* * *
-
 What is this?
 -------------
 Pretty much, this is just my take at a Danbooru clone. It's not meant to be the best around, or anything like that. I just wanted a little project to work on, and have it done my way. I'm not doing this only to write it though - it will actually get used by myself privately. Feel free to use it if you want, I guess?
